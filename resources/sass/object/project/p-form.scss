@@ -1,0 +1,10 @@
+//formの基本的な部分を記載
+.p-form{
+    width: 50%;
+    margin: 48px auto;
+    //スマホ表示用
+    @include sp(){
+        margin: 24px auto;
+        width: 95%;
+    }
+}

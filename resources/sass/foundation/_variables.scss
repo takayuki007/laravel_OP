@@ -1,0 +1,52 @@
+// Body
+//$body-bg: #f8fafc;
+
+// Typography
+//$font-family-sans-serif: 'Nunito', sans-serif;
+//$font-size-base: 0.9rem;
+//$line-height-base: 1.6;
+
+// Colors
+//$blue: #3490dc;
+//$indigo: #6574cd;
+//$purple: #9561e2;
+//$pink: #f66d9b;
+//$red: #e3342f;
+//$orange: #f6993f;
+//$yellow: #ffed4a;
+//$green: #38c172;
+//$teal: #4dc0b5;
+//$cyan: #6cb2eb;
+
+//変数まとめ
+$body-bg: antiquewhite;
+$title-color: brown;
+$base-color:  black;
+$another-color: antiquewhite;
+$err-color: crimson;
+$blue: #3490dc;
+$white: white;
+$title-font-family: 'Russo One', sans-serif;
+$font-family-base: 'Kosugi Maru', sans-serif;
+
+//フォントサイズ
+$font-size-ss: 8px;
+$font-size-s: 12px;
+$font-size-m: 16px;
+$font-size-l: 20px;
+$font-size-ll: 24px;
+$font-size-xl: 28px;
+
+//スペース
+$space-ss: 8px;
+$space-s: 12px;
+$space-m: 16px;
+$space-l: 20px;
+$space-ll: 24px;
+$space-xl: 28px;
+
+//レスポンシブのための変数
+$breakpoints: (
+    'pc': 'screen and (min-width: 480px)',
+    'sp': 'screen and (max-width: 480px)',
+)!default;

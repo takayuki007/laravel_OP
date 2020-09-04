@@ -1,0 +1,16 @@
+//入力部分の基礎的なところ
+.c-input{
+    box-sizing: border-box;
+    display: block;
+    font-size: $font-size-m;
+    height: 44px;
+    margin-top: $space-ss;
+    padding: $space-ss;
+    width: 100%;
+    //スマホ表示部分
+    @include sp(){
+        font-size: $font-size-s;
+        width: 100%;
+        line-height: 40px;
+    }
+}

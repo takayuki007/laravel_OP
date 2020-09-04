@@ -1,0 +1,20 @@
+//フラッシュメッセージについて
+.p-flash{
+    width: 100%;
+    background-color: $title-color;
+    color: $body-bg;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: $font-size-m;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+
+    //スマホ表示
+    @include sp(){
+        width: 100%;
+        font-size: $font-size-s;
+        font-weight: bold;
+    }
+}

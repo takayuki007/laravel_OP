@@ -1,0 +1,22 @@
+//全体
+body{
+    background: $body-bg;
+    color: $base-color;
+    font-family: $font-family-base;
+    //スマホ表示用
+    @include sp(){
+        width: 100%;
+    }
+
+}
+//メイン部分
+main{
+    width: 100%;
+    height: auto;
+
+    //スマホ表示
+    @include sp(){
+        height: auto;
+        width: 100%;
+    }
+}

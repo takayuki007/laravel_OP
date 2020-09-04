@@ -1,0 +1,74 @@
+//ヘッダー部分
+.l-header {
+    width: 100%;
+    height: 40px;
+    background: $title-color;
+
+    //スマホ表示
+    @include sp() {
+        width: 100%;
+    }
+
+    //flexを使うためだけのタグ
+    .header-wrapper {
+        align-items: center;
+        display: flex;
+        justify-content: flex-end;
+
+        //左側
+        //ロゴの領域と位置
+        .l-logo {
+            margin-right: auto;
+            height: 40px;
+
+            //ロゴのテキスト部分
+            .l-logoText {
+                font-family: $title-font-family;
+                text-decoration: none;
+                line-height: 40px;
+                font-size: $font-size-xl;
+                color: $body-bg;
+
+                @include sp(){
+                    font-size: $font-size-m;
+                }
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+
+        //右側
+        //メニューリストの部分
+        //PCのみの表示
+        .l-nav{
+            .l-ul{
+                display: flex;
+                justify-content: flex-end;
+
+                .l-li{
+                    margin-left: $space-xl;
+
+                    @include sp(){
+                        margin-left: $space-s;
+                    }
+
+                    .l-a{
+                        font-family: $title-font-family;
+                        text-decoration: none;
+                        line-height: 40px;
+                        font-size: $font-size-xl;
+                        color: $body-bg;
+
+                        @include sp(){
+                            font-size: $font-size-s;
+                        }
+                    }
+                }
+
+            }
+        }
+
+    }
+}

@@ -1,0 +1,6 @@
+//エラー表示部分
+.c-invalid-feedback{
+    display: inline-block;
+    margin-top: 3px;
+    color: $err-color;
+}

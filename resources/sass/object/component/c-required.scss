@@ -1,0 +1,14 @@
+.c-required{
+    color: $err-color;
+    display: inline-block;
+    font-size: $font-size-m;
+    margin-left: $space-ss;
+    //2番目に隙間が欲しくて
+    &:nth-child(2){
+        margin-right: $space-ss;
+    }
+    //スマホ表示
+    @include sp(){
+        font-size: $font-size-s;
+    }
+}

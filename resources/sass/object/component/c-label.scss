@@ -1,0 +1,9 @@
+//label表示部分の基本的なところ
+.c-label{
+    display: block;
+    margin-bottom: 52px;
+
+    @include sp(){
+        margin-bottom: $space-l;
+    }
+}

@@ -1,0 +1,489 @@
+@import url(https://fonts.googleapis.com/css2?family=Russo+One&display=swap);@import url(https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Noto+Sans+JP:wght@500;
+
+900&display=swap);html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background: antiquewhite;
+  color: black;
+  font-family: "Kosugi Maru", sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    width: 100%;
+  }
+}
+
+main {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 480px) {
+  main {
+    height: auto;
+    width: 100%;
+  }
+}
+
+.l-header {
+  width: 100%;
+  height: 40px;
+  background: brown;
+}
+
+@media screen and (max-width: 480px) {
+  .l-header {
+    width: 100%;
+  }
+}
+
+.l-header .header-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.l-header .header-wrapper .l-logo {
+  margin-right: auto;
+  height: 40px;
+}
+
+.l-header .header-wrapper .l-logo .l-logoText {
+  font-family: "Russo One", sans-serif;
+  text-decoration: none;
+  line-height: 40px;
+  font-size: 28px;
+  color: antiquewhite;
+}
+
+@media screen and (max-width: 480px) {
+  .l-header .header-wrapper .l-logo .l-logoText {
+    font-size: 16px;
+  }
+}
+
+.l-header .header-wrapper .l-logo .l-logoText:hover {
+  cursor: pointer;
+}
+
+.l-header .header-wrapper .l-nav .l-ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.l-header .header-wrapper .l-nav .l-ul .l-li {
+  margin-left: 28px;
+}
+
+@media screen and (max-width: 480px) {
+  .l-header .header-wrapper .l-nav .l-ul .l-li {
+    margin-left: 12px;
+  }
+}
+
+.l-header .header-wrapper .l-nav .l-ul .l-li .l-a {
+  font-family: "Russo One", sans-serif;
+  text-decoration: none;
+  line-height: 40px;
+  font-size: 28px;
+  color: antiquewhite;
+}
+
+@media screen and (max-width: 480px) {
+  .l-header .header-wrapper .l-nav .l-ul .l-li .l-a {
+    font-size: 12px;
+  }
+}
+
+.c-alert-success {
+  margin-top: 3px;
+  color: #3490dc;
+}
+
+.c-btn {
+  background: brown;
+  border: none;
+  color: antiquewhite;
+  display: block;
+  font-size: 20px;
+  height: 44px;
+  margin: 52px 0;
+  width: 100%;
+}
+
+.c-btn:hover {
+  cursor: pointer;
+  opacity: 0.85;
+}
+
+@media screen and (max-width: 480px) {
+  .c-btn {
+    font-size: 16px;
+    width: 100%;
+    margin: 16px 0;
+  }
+}
+
+.c-count-area {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+
+.c-index {
+  width: 49%;
+  height: 212px;
+  background: white;
+  margin-bottom: 24px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+  background: white;
+  display: block;
+  padding: 12px;
+}
+
+.c-index:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .c-index {
+    width: 100%;
+    height: 184px;
+    margin-top: 0;
+    margin-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.c-create-memo {
+  width: 100%;
+  height: 300px;
+  box-sizing: border-box;
+  font-size: 16px;
+  padding: 8px;
+}
+
+@media screen and (max-width: 480px) {
+  .c-create-memo {
+    width: 100%;
+    height: 200px;
+    font-size: 12px;
+  }
+}
+
+.c-input {
+  box-sizing: border-box;
+  display: block;
+  font-size: 16px;
+  height: 44px;
+  margin-top: 8px;
+  padding: 8px;
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .c-input {
+    font-size: 12px;
+    width: 100%;
+    line-height: 40px;
+  }
+}
+
+.c-invalid-feedback {
+  display: inline-block;
+  margin-top: 3px;
+  color: crimson;
+}
+
+.c-is-invalid {
+  border: 1px solid crimson;
+}
+
+.c-label {
+  display: block;
+  margin-bottom: 52px;
+}
+
+@media screen and (max-width: 480px) {
+  .c-label {
+    margin-bottom: 20px;
+  }
+}
+
+.c-link {
+  text-align: center;
+  line-height: 44px;
+  text-decoration: none;
+}
+
+.c-memo-area {
+  width: 100%;
+  height: 300px;
+  box-sizing: border-box;
+  font-size: 16px;
+  padding: 8px;
+  background: white;
+}
+
+@media screen and (max-width: 480px) {
+  .c-memo-area {
+    width: 100%;
+    height: 200px;
+    font-size: 12px;
+  }
+}
+
+.c-required {
+  color: crimson;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+.c-required:nth-child(2) {
+  margin-right: 8px;
+}
+
+@media screen and (max-width: 480px) {
+  .c-required {
+    font-size: 12px;
+  }
+}
+
+.c-site-width {
+  margin: 0 auto;
+  width: 980px;
+}
+
+@media screen and (max-width: 480px) {
+  .c-site-width {
+    margin: 0 auto;
+    width: 90%;
+  }
+}
+
+.c-text {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 480px) {
+  .c-text {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+.c-title {
+  font-size: 24px;
+  margin-bottom: 48px;
+  font-family: "Russo One", sans-serif;
+  color: brown;
+}
+
+@media screen and (max-width: 480px) {
+  .c-title {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+}
+
+.c-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 480px) {
+  .c-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+.p-flash {
+  width: 100%;
+  background-color: brown;
+  color: antiquewhite;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .p-flash {
+    width: 100%;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
+
+.p-form {
+  width: 50%;
+  margin: 48px auto;
+}
+
+@media screen and (max-width: 480px) {
+  .p-form {
+    margin: 24px auto;
+    width: 95%;
+  }
+}
+
+.p-index {
+  width: 100%;
+  height: auto;
+  margin: 48px auto;
+}
+
+@media screen and (max-width: 480px) {
+  .p-index {
+    width: 100%;
+    margin: 24px auto;
+  }
+}
+

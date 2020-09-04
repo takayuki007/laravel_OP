@@ -1,0 +1,10 @@
+//PC用サイト幅の設定
+.c-site-width{
+    margin: 0 auto;
+    width: 980px;
+    //スマホ表示
+    @include sp(){
+        margin: 0 auto;
+        width: 90%;
+    }
+}

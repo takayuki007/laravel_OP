@@ -1,0 +1,10 @@
+//テキスト表記はこれがデフォルト
+.c-text{
+    font-size: $font-size-m;
+    line-height: $space-ll;
+    //スマホ表示
+    @include sp(){
+        font-size: $font-size-s;
+        line-height: $space-l;
+    }
+}

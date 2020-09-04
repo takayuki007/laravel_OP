@@ -1,0 +1,13 @@
+//タイトル部分の基礎的なところ
+.c-title{
+    font-size: $font-size-ll;
+    margin-bottom: 48px;
+    font-family: $title-font-family;
+    color: $title-color;
+    //スマホ表示
+    @include sp(){
+        font-size: $font-size-m;
+        margin-bottom: $space-m;
+    }
+
+}

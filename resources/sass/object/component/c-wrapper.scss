@@ -1,0 +1,16 @@
+//memo一覧部分
+.c-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+
+    //スマホ
+    @include sp(){
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}

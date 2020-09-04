@@ -1,0 +1,11 @@
+//マイページ、メモ一覧の部分
+.p-index{
+    width: 100%;
+    height: auto;
+    margin: 48px auto;
+
+    @include sp(){
+        width: 100%;
+        margin: 24px auto;
+    }
+}
